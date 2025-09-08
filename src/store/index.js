@@ -6,7 +6,3 @@ export const store = configureStore({
     conversation: conversationReducer,
   },
 });
-
-// For TypeScript users (commented out for JavaScript)
-// export type RootState = ReturnType<typeof store.getState>;
-// export type AppDispatch = typeof store.dispatch;
